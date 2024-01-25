@@ -2,7 +2,7 @@ import math
 import numpy as np
 import torch
 import torch.nn as nn
-from CCCC.cbam import cbam
+from BCCA.cbam import cbam
 from typing import Tuple, Dict
 import torch.nn.functional as F
 from timm.models.layers import trunc_normal_

@@ -11,7 +11,7 @@ import torch.nn as nn
 
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
-from CCCC.BCCA import BCCA_small,BCCA_base,BCCA_large
+from BCCA.BCCA import BCCA_small,BCCA_base,BCCA_large
 
 class MyDataSet(Dataset):
     def __init__(self,datas,labels):
