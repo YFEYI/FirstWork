@@ -12,7 +12,9 @@ import torch.nn as nn
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from CC.mobile_attn import mobile_attn
-
+"""
+运行方法
+"""
 class MyDataSet(Dataset):
     def __init__(self,datas,labels):
         self.datas = torch.from_numpy(datas).float()
