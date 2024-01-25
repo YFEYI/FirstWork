@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from CC.resnet34_nodownsample import resnet34
 """
-    resnet34(魔改，去掉了下采用)+文中方法
+    去掉了下采样的resnet34+文中的Attention
 """
 class MultiHeadAttention(nn.Module):
     def __init__(self, dim, patch_size, num_heads, qkv_bias=True, attn_drop=0.,rpe=True):
