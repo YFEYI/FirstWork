@@ -7,7 +7,7 @@ from typing import Optional, Tuple, Union, Dict
 import torch.nn.functional as F
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 """
-    mobile_net(应该是V2) + 文中的Attention
+    mobile_net(V2) + 文中的Attention
 """
 
 class ConvLayer(nn.Module):
