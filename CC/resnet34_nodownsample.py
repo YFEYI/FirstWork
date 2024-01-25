@@ -1,5 +1,8 @@
 import torch.nn as nn
 import torch
+"""
+    resnet34
+"""
 class BasicBlock(nn.Module):
     expansion=1
     def __init__(self,in_channel,out_channel,nodownsample=None,width_per_group=72):
