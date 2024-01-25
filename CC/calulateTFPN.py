@@ -1,7 +1,7 @@
 import numpy as np
 if __name__ == '__main__':
     """
-        一些常用评价指标的计算
+        一些常用评价指标的计算(不保证好用)
     """
     V = np.load('../CC/mobile_attn_TFPN_V.npy', allow_pickle='TRUE').item()
     A = np.load('../CC/mobile_attn_TFPN_A.npy', allow_pickle='TRUE').item()
